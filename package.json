@@ -1,0 +1,22 @@
+{
+  "name": "angular",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cv001/angularjs-micro-zoe.git"
+  },
+  "keywords": [
+    "angularjs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cv001/angularjs-micro-zoe/issues"
+  },
+  "homepage": "https://github.com/cv001/angularjs-micro-zoe#readme"
+}
