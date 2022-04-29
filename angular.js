@@ -1,5 +1,5 @@
 /**
- * @license AngularJS v1.8.4-local+sha.c377a9898
+ * @license AngularJS v1.8.4-local+sha.ed0ebbb32
  * (c) 2010-2020 Google LLC. http://angularjs.org
  * License: MIT
  */
@@ -99,7 +99,7 @@ function isValidObjectMaxDepth(maxDepth) {
 function minErr(module, ErrorConstructor) {
   ErrorConstructor = ErrorConstructor || Error;
 
-  var url = 'https://errors.angularjs.org/1.8.4-local+sha.c377a9898/';
+  var url = 'https://errors.angularjs.org/1.8.4-local+sha.ed0ebbb32/';
   var regex = url.replace('.', '\\.') + '[\\s\\S]*';
   var errRegExp = new RegExp(regex, 'g');
 
@@ -2828,7 +2828,7 @@ function toDebugString(obj, maxDepth) {
 var version = {
   // These placeholder strings will be replaced by grunt's `build` task.
   // They need to be double- or single-quoted.
-  full: '1.8.4-local+sha.c377a9898',
+  full: '1.8.4-local+sha.ed0ebbb32',
   major: 1,
   minor: 8,
   dot: 4,
@@ -2983,7 +2983,7 @@ function publishExternalAPI(angular) {
       });
     }
   ])
-  .info({ angularVersion: '1.8.4-local+sha.c377a9898' });
+  .info({ angularVersion: '1.8.4-local+sha.ed0ebbb32' });
 }
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
@@ -15195,7 +15195,7 @@ var locationPrototype = {
   }
 };
 
-forEach([LocationHashbangInHtml5Url, LocationHashbangUrl, LocationHtml5Url], function(Location) {
+forEach([LocationHashbangInHtml5Url, LocationHashbangUrl, LocationHtml5Url, LocationHtml5UrlInMicroZoe], function(Location) {
   Location.prototype = Object.create(locationPrototype);
 
   /**
