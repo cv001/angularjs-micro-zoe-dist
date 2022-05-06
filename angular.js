@@ -14863,7 +14863,7 @@ function LocationHtml5UrlInMicroZoe(appBase, appBaseNoFile, basePrefix) {
   };
 
   this.$$normalizeUrl = function(url) {
-    return appBaseNoFile + url.substr(1); // first char is always '/'
+    return appBaseNoFile + url.substr(1).replace(/%2F/g, '/'); // first char is always '/'
   };
 
   this.$$parseLinkUrl = function(url, relHref) {
